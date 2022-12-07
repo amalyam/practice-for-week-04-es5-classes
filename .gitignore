@@ -1,17 +1,12 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.swp
+# Ignore Mac system files and metadata
+.DS_store
+Thumbs.db
 
-pids
-logs
-results
-tmp
+# Ignore node_modules folder
+node_modules
+
+# Ignore all text files
+*.txt
 
 # Build
 public/css/main.css
@@ -22,23 +17,12 @@ coverage
 # API keys and secrets
 .env
 
-# Dependency directory
-node_modules
-bower_components
-
 # Editors
 .idea
 *.iml
 
 # OS metadata
 .DS_Store
-Thumbs.db
-
-# Ignore built ts files
-dist/**/*
-
-# ignore yarn.lock
-yarn.lock
 
 # ignore workspace
 .code-workspace
